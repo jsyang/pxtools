@@ -7,6 +7,19 @@ http://www.kneschke.de/projekte/paradox/ (it is now a 404).
 
 Original author: mailto:jan@kneschke.de
 
+--------------
+MacOS install note:
+
+./autogen.sh
+./configure
+make configure
+# https://stackoverflow.com/questions/11370684/what-is-libintl-h-and-where-can-i-get-it#comment36845922_11370808
+NO_GETTEXT=1 make
+
+Your executables will be located under `src/`
+
+--------------
+
 pxTools
 =======
 
